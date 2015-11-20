@@ -21,3 +21,7 @@ we must cleanup everything that was created during this upload
 ### createSignedURL(metadata)
 
 Creates signed url, which provides access to a certain file for a limited amount of time
+
+### postProcess(file, functionToPerform)
+
+Buffers `file` and passes to `functionToPerform`, which is defined my implementation of a parent service
