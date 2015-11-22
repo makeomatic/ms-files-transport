@@ -4,10 +4,6 @@ abstract class with tests for ms-files service
 
 ## Methods
 
-### Init(provider)
-
-provider extends AbstractFileTransferer and creates bucket if it does not exist
-
 ### initResumableUpload(metadata)
 
 Initiates resumable upload - could either be a multipart upload for amazon, or a real resumable upload with gce, etc.
@@ -25,3 +21,7 @@ Creates signed url, which provides access to a certain file for a limited amount
 ### postProcess(file, functionToPerform)
 
 Buffers `file` and passes to `functionToPerform`, which is defined my implementation of a parent service
+
+### readFile(file, opts)
+
+Provides convenience method to read a file from a bucket
