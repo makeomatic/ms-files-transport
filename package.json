@@ -1,6 +1,6 @@
 {
   "name": "ms-files-transport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Abstract file transport for s3-like APIs",
   "main": "./src/index.js",
   "scripts": {
