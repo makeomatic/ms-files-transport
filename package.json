@@ -1,6 +1,6 @@
 {
   "name": "ms-files-transport",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Abstract file transport for s3-like APIs",
   "main": "./src/index.js",
   "scripts": {
@@ -21,10 +21,10 @@
     "common-errors": "~1.x.x"
   },
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
-    "eslint": "^3.4.0",
-    "eslint-config-airbnb-base": "^5.0.3",
-    "eslint-plugin-import": "^1.14.0",
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
     "json": "^9.0.4"
   }
 }
