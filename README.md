@@ -1,5 +1,7 @@
 # ms-files-transport
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/makeomatic/ms-files-transport.svg)](https://greenkeeper.io/)
+
 abstract class with tests for ms-files service
 
 ## Methods
